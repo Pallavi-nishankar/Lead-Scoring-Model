@@ -7,7 +7,7 @@ The company markets its courses on several websites and search engines like Goog
 
 Now, although X Education gets a lot of leads, its lead conversion rate is very poor. For example, if, say, they acquire 100 leads in a day, only about 30 of them are converted. To make this process more efficient, the company wishes to identify the most potential leads, also known as ‘Hot Leads’. If they successfully identify this set of leads, the lead conversion rate should go up as the sales team will now be focusing more on communicating with the potential leads rather than making calls to everyone.
 
-<img src = 'https://www.rakacreative.com/wp-content/uploads/2017/01/raka_blog_lead_scoring-1480x550.png'>
+<img src = 'https://user-images.githubusercontent.com/126444016/221550017-aa5d6f73-3961-4b6d-b2d4-a62720a67dae.png'>
 
 There are a lot of leads generated in the initial stage (top) but only a few of them come out as paying customers from the bottom. In the middle stage, you need to nurture the potential leads well (i.e. educating the leads about the product, constantly communicating, etc. ) in order to get a higher lead conversion.
 
@@ -16,16 +16,16 @@ X Education wants to select the most promising leads, i.e. the leads that are mo
 ### Solution:
 For this case study we're going to use several classification model to predict whether the lead is going to quantify as a hot lead. The steps involved for this case study are mentioned below:
 
-1. Data Loading
-2. Data Exploration a.k.a Exploratory Data Analysis
-3. Preprocessing
-4. Feature Engineering
-5. Outlier Analysis
-6. Model Building
-7. Model Performance Benchmarking
-8. Model Performance Evaluation
-9. Cross Validation + Hyperparameter Tuning
-10. Model Diagnosis Using Probability Calibration, ROC AUC Curve, Precision-Recall Curve
+1. Import data
+2. Clean and prepare the acquired data for further analysis 
+3. Exploratory data analysis for figuring out most helpful attributes for conversion
+4. Scaling features
+5. Prepare the data for model building
+6. Build a logistic regression model 
+7. Test the model on train set 
+8. Evaluate model by different measures and metrics 
+9. Test the model on test set
+10. Measure the accuracy of the model and other metrics of evolution
 
 ### Notebooks:
 1) <a href = "https://github.com/Pallavi-nishankar/Lead-Scoring-Model/blob/main/Lead%20Scoring%20case%20study%20.ipynb"> Exploratory Data Analysis + Feature Engineering + Outlier Analysis Notebook
